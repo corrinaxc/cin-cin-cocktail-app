@@ -19,6 +19,9 @@
 body {
   color: black;
   background: rgb(var(--primary));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 @layer utilities {
@@ -28,6 +31,18 @@ body {
 }
 
 form {
-  width: 500px;
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  margin:3px;
+}
 
+button {
+  width: 100px;;
+  align-self: center;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
 }
